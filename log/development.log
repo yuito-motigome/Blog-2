@@ -1,0 +1,18 @@
+Started GET "/" for ::1 at 2020-11-13 23:37:28 +0800
+  
+AbstractController::Helpers::MissingHelperError (Missing helper file helpers/c:/users/kzy19/desktop/program/blog/app/helpers/application_helper.rb_helper.rb):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/home_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-11-13 23:37:58 +0800
+  
+AbstractController::Helpers::MissingHelperError (Missing helper file helpers/c:/users/kzy19/desktop/program/blog/app/helpers/application_helper.rb_helper.rb):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/home_controller.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2020-11-13 23:41:37 +0800
+  
+AbstractController::Helpers::MissingHelperError (Missing helper file helpers/c:/users/kzy19/desktop/program/blog/app/helpers/application_helper.rb_helper.rb):
+  
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/home_controller.rb:1:in `<main>'
