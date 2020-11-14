@@ -13,3 +13,175 @@
  *= require_tree .
  *= require_self
  */
+ :root{
+    --main-height: 1000px
+}
+
+.header{
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.content-left{
+    height: 100vh;
+    width: 25%;
+}
+
+.content-middle{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.content-right{
+    height: 100vh;
+    width: 25%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #DDDDDD;
+}
+
+.mine{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: orangered;/*文字色*/
+    background: #FFF;
+    border: solid 3px orangered;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+.title{
+    color: black;
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image img{
+    width: 70%;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+
+.image-height{
+    margin: 10px;
+}
+
+.image-height img{
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin:auto;
+}
+
+.image{
+    margin: 10px;
+}
+
+.latter{
+
+}
+
+.top{
+
+}
+
+.top-content {
+    display: flex;
+    background-color: #DDDDDD;
+    padding: 10px;
+    margin: 10px;
+}
+
+.top-content p {
+    margin: 0; 
+    padding: 0;
+}
+
+.top-title a{
+    color: black;
+    text-align: center;
+}
+
+.top-title{
+    text-align: center;
+    margin-top:auto; 
+    margin-bottom: auto;
+}
+
+.top-image img{
+    width: 250px;
+    height: 150px;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width:480px){
+    .content-left{
+        display:none
+    }
+    .content-right{
+        display:none
+    }
+    .content-middle{
+        height: auto;
+        width: 100%;
+        background-color: white;
+    }
+    .image img{
+        width: 100%;
+        height: 250px;
+        display: block;
+        margin:auto;
+    }
+    .top-image img{
+        width: 130px;
+        height: 100%;
+        margin-top:auto; 
+        margin-bottom: auto;
+    }
+
+    .top-image{
+        height: 80%;
+    }
+
+    .top-content{
+        height: auto;
+    }
+
+    .top-title{
+        text-align: center;
+        margin-top:auto; 
+        margin-bottom: auto;
+    }
+
+    .top-title a{
+        font-size: 17px;
+    }
+
+    .image-height img{
+        width: 100%;
+        height: 400px;
+        display: block;
+        margin:auto;
+    }
+}
+
